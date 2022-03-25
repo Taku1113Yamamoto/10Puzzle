@@ -7,15 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		712812BE27ECDB8000264008 /* lv4.txt in Resources */ = {isa = PBXBuildFile; fileRef = 712812BA27ECDB7E00264008 /* lv4.txt */; };
+		712812BF27ECDB8000264008 /* lv1.txt in Resources */ = {isa = PBXBuildFile; fileRef = 712812BB27ECDB7F00264008 /* lv1.txt */; };
+		712812C027ECDB8000264008 /* lv3.txt in Resources */ = {isa = PBXBuildFile; fileRef = 712812BC27ECDB8000264008 /* lv3.txt */; };
+		712812C127ECDB8000264008 /* lv2.txt in Resources */ = {isa = PBXBuildFile; fileRef = 712812BD27ECDB8000264008 /* lv2.txt */; };
 		71A86CFB27E5E9E40072A379 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71A86CFA27E5E9E40072A379 /* AppDelegate.swift */; };
 		71A86CFD27E5E9E40072A379 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71A86CFC27E5E9E40072A379 /* SceneDelegate.swift */; };
 		71A86CFF27E5E9E40072A379 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71A86CFE27E5E9E40072A379 /* ViewController.swift */; };
 		71A86D0227E5E9E40072A379 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71A86D0027E5E9E40072A379 /* Main.storyboard */; };
 		71A86D0427E5E9E60072A379 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 71A86D0327E5E9E60072A379 /* Assets.xcassets */; };
-		71A86D0727E5E9E60072A379 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71A86D0527E5E9E60072A379 /* LaunchScreen.storyboard */; };
 		71A86D1227E5E9E70072A379 /* _0puzzleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71A86D1127E5E9E70072A379 /* _0puzzleTests.swift */; };
 		71A86D1C27E5E9E70072A379 /* _0puzzleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71A86D1B27E5E9E70072A379 /* _0puzzleUITests.swift */; };
 		71A86D1E27E5E9E70072A379 /* _0puzzleUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71A86D1D27E5E9E70072A379 /* _0puzzleUITestsLaunchTests.swift */; };
+		71A86D2B27E603CB0072A379 /* ModeSelectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71A86D2A27E603CB0072A379 /* ModeSelectViewController.swift */; };
+		71A86D2D27E609AC0072A379 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71A86D2C27E609AC0072A379 /* GameViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,19 +41,24 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		712812BA27ECDB7E00264008 /* lv4.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = lv4.txt; sourceTree = "<group>"; };
+		712812BB27ECDB7F00264008 /* lv1.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = lv1.txt; sourceTree = "<group>"; };
+		712812BC27ECDB8000264008 /* lv3.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = lv3.txt; sourceTree = "<group>"; };
+		712812BD27ECDB8000264008 /* lv2.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = lv2.txt; sourceTree = "<group>"; };
 		71A86CF727E5E9E40072A379 /* 10puzzle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 10puzzle.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		71A86CFA27E5E9E40072A379 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		71A86CFC27E5E9E40072A379 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		71A86CFE27E5E9E40072A379 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		71A86D0127E5E9E40072A379 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		71A86D0327E5E9E60072A379 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		71A86D0627E5E9E60072A379 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		71A86D0827E5E9E60072A379 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		71A86D0D27E5E9E70072A379 /* 10puzzleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = 10puzzleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		71A86D1127E5E9E70072A379 /* _0puzzleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _0puzzleTests.swift; sourceTree = "<group>"; };
 		71A86D1727E5E9E70072A379 /* 10puzzleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = 10puzzleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		71A86D1B27E5E9E70072A379 /* _0puzzleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _0puzzleUITests.swift; sourceTree = "<group>"; };
 		71A86D1D27E5E9E70072A379 /* _0puzzleUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _0puzzleUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		71A86D2A27E603CB0072A379 /* ModeSelectViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModeSelectViewController.swift; sourceTree = "<group>"; };
+		71A86D2C27E609AC0072A379 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,8 +113,13 @@
 				71A86CFC27E5E9E40072A379 /* SceneDelegate.swift */,
 				71A86CFE27E5E9E40072A379 /* ViewController.swift */,
 				71A86D0027E5E9E40072A379 /* Main.storyboard */,
+				71A86D2C27E609AC0072A379 /* GameViewController.swift */,
+				71A86D2A27E603CB0072A379 /* ModeSelectViewController.swift */,
+				712812BB27ECDB7F00264008 /* lv1.txt */,
+				712812BD27ECDB8000264008 /* lv2.txt */,
+				712812BC27ECDB8000264008 /* lv3.txt */,
+				712812BA27ECDB7E00264008 /* lv4.txt */,
 				71A86D0327E5E9E60072A379 /* Assets.xcassets */,
-				71A86D0527E5E9E60072A379 /* LaunchScreen.storyboard */,
 				71A86D0827E5E9E60072A379 /* Info.plist */,
 			);
 			path = 10puzzle;
@@ -231,9 +246,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				71A86D0727E5E9E60072A379 /* LaunchScreen.storyboard in Resources */,
+				712812C027ECDB8000264008 /* lv3.txt in Resources */,
+				712812BF27ECDB8000264008 /* lv1.txt in Resources */,
 				71A86D0427E5E9E60072A379 /* Assets.xcassets in Resources */,
 				71A86D0227E5E9E40072A379 /* Main.storyboard in Resources */,
+				712812BE27ECDB8000264008 /* lv4.txt in Resources */,
+				712812C127ECDB8000264008 /* lv2.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,7 +276,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				71A86D2D27E609AC0072A379 /* GameViewController.swift in Sources */,
 				71A86CFF27E5E9E40072A379 /* ViewController.swift in Sources */,
+				71A86D2B27E603CB0072A379 /* ModeSelectViewController.swift in Sources */,
 				71A86CFB27E5E9E40072A379 /* AppDelegate.swift in Sources */,
 				71A86CFD27E5E9E40072A379 /* SceneDelegate.swift in Sources */,
 			);
@@ -303,14 +323,6 @@
 				71A86D0127E5E9E40072A379 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		71A86D0527E5E9E60072A379 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				71A86D0627E5E9E60072A379 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -444,6 +456,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -471,6 +484,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
